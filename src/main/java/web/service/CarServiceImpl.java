@@ -7,7 +7,7 @@ import web.model.Car;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
-@Component
+
 @Service
 public class CarServiceImpl implements CarService{
     private List<Car> cars;
